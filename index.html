@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Nandivkar - Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span>DevJourney</span></a></div>
+            <ul class="menu">
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Learning about HTML & CSS Properties</div>
+                <div class="text-2">Welcome To My Blog</div>
+            </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">The World of Frontend</h2>
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text" style="text-align: center; font-family: 'Ubuntu', sans-serif;">Understanding HTML:
+                        <span class="typing-2">Why it's Essential in Web Development</span>
+                    </div>
+                    <br>
+                    <p style="line-height: 1.5;">Hello, fellow readers! I hope you're doing well. In the previous blog,
+                        we discussed the logic-building part. Today, we will learn about HTML tags, CSS properties, and
+                        JavaScript.
+                    </p>
+
+                    <br>
+                    <p style="line-height: 1.5;"><b>HTML, or HyperText Markup Language</b>, serves as the backbone of
+                        the
+                        World Wide Web, providing the fundamental structure and organization for web pages and
+                        applications. <b>Developed by Tim Berners-Lee in the late 1980s</b>, HTML was initially
+                        conceived
+                        as a means to share scientific information across different computer systems. Over the
+                        years, HTML has evolved through various versions, with HTML5 being the latest standard,
+                        introducing numerous new elements and attributes to streamline web development. At its core,
+                        HTML relies on a system of tags and attributes to define elements such as headings,
+                        paragraphs, lists, links, and images, allowing developers to create cohesive and
+                        well-structured content. HTML5 emphasizes semantic markup, promoting the use of elements
+                        that convey meaning about the content they contain, thereby improving accessibility and
+                        search engine optimization. Moreover, HTML integrates seamlessly with <b>Cascading Style Sheets
+                            (CSS)</b> for styling and <b>JavaScript</b> for interactivity, forming a powerful trio that
+                        drives
+                        modern web development. From simple blogs to complex web applications, HTML remains a
+                        foundational technology, enabling developers to craft engaging and user-friendly experiences
+                        for the vast and diverse audience of the internet.</p>
+
+                </div>
+            </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text" style="text-align: center; font-family: 'Ubuntu', sans-serif;">CSS Essentials:
+                        <span class="typing-2">Understanding Its Role in Web Design</span>
+                    </div>
+
+                    <br>
+                    <p style="line-height: 1.5;"><b>Cascading Style Sheets (CSS)</b> have revolutionized web development
+                        since their introduction in the late 1990s. They solve the problem of HTML's limitations by
+                        giving developers control over how web pages look. CSS is crucial for keeping code organized
+                        and making sure websites have a consistent appearance. It's also essential for making sites
+                        responsive to different devices and improving user experience with animations and
+                        transitions. Plus, CSS helps optimize website performance by making code more efficient. In
+                        today's web development landscape, CSS is a must-have tool for creating visually appealing
+                        and user-friendly websites.</p>
+
+                    <br>
+                    <h2 style="font-size: medium;">Responsive Design: Adapting to Different Devices and Screen Sizes
+                    </h2>
+                    <p style="line-height: 1.5;">In the era of multi-device usage, responsive design has become
+                        imperative for ensuring
+                        optimal user experience across desktops, laptops, tablets, and smartphones. CSS plays a
+                        central role in responsive web design by enabling developers to create fluid and flexible
+                        layouts that adapt seamlessly to various screen sizes and resolutions. Media queries, a
+                        feature of CSS, allow developers to apply different styles based on factors such as screen
+                        width, orientation, and pixel density, thereby optimizing content presentation for each
+                        device.</p>
+
+
+                    <br>
+                    <h2
+                        style="font-size: large;  color: #e93d27; text-align: center; font-family: 'Ubuntu', sans-serif; line-height: 2;">
+                        CSS (Cascading Style Sheets) can be categorized into three main types
+                        based on how they are applied and organized:</h2>
+
+                    <h2 style="font-size: medium; line-height: 2;">Inline CSS:</h2>
+                    <p style="line-height: 1.5;">Inline CSS refers to styling that is applied directly within the HTML
+                        elements using the style attribute. This method allows you to style individual elements on a
+                        webpage by specifying CSS properties and values directly within the HTML tag. While inline CSS
+                        can be convenient for small styling changes, it can become difficult to maintain and reuse
+                        styles across multiple elements, especially in larger projects.</p>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <p
+                                style="line-height: 2; font-size: large; font-weight: 600; color: #e93d27; text-align: center; font-family: 'Ubuntu', sans-serif;">
+                                For example:</p>
+                            <code
+                                style="font-weight: 800;">&lt;p style="color: red; font-size: 16px;"&gt;This is a paragraph with inline CSS styling.&lt;/p&gt;</code>
+                        </div>
+                    </div>
+
+                    <h2 style="font-size: medium; line-height: 2;">Internal CSS:</h2>
+                    <p style="line-height: 1.5;">Internal CSS involves placing CSS rules within the
+                        <code style="font-size: large;">&lt;<strong>style</strong>&gt;</code> element in the <code
+                            style="font-size: large;">&lt;<strong>head</strong>&gt;</code> section of an HTML document.
+                        With internal CSS, you can define styles that apply to
+                        multiple elements within the same HTML document. This method provides better organization
+                        compared to inline CSS and allows for greater flexibility in styling. However, it still requires
+                        manual updating of styles within the HTML file.
+                    </p>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <p
+                                style="line-height: 2; font-size: large; font-weight: 600; color: #e93d27; text-align: center; font-family: 'Ubuntu', sans-serif;">
+                                For example:</p>
+                            <code style="font-weight: 800;">&lt;style&gt;
+                                p {
+                                    color: red;
+                                    font-size: 16px;
+                                }
+                                &lt;/style&gt;
+                                &lt;p&gt;This is a paragraph with internal CSS styling.&lt;/p&gt;</code>
+                        </div>
+                    </div>
+
+                    <h2 style="font-size: medium; line-height: 2;">External CSS:</h2>
+                    <p style="line-height: 1.5;">
+                        External CSS involves linking an external CSS file to an HTML document using the
+                        <code style="font-size: large;">&lt;<strong>link</strong>&gt;</code> element within the <code
+                            style="font-size: large;">&lt;<strong>style</strong>&gt;</code> section. This method
+                        allows for centralizing styles in a separate CSS file, promoting better organization and
+                        maintainability of code. By separating content from presentation, external CSS facilitates
+                        reusability across multiple web pages and simplifies the process of updating styles globally.
+                        Additionally, it enhances collaboration between designers and developers, enabling them to work
+                        on CSS files independently.
+                    </p>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <p
+                                style="line-height: 2; font-size: large; font-weight: 600; color: #e93d27; text-align: center; font-family: 'Ubuntu', sans-serif;">
+                                For example:</p>
+                            <code style="font-weight: 800;">&lt;link rel="stylesheet" href="styles.css"&gt;
+                                &lt;p&gt;This is a paragraph with external CSS styling.&lt;/p&gt;</code>
+                        </div>
+                    </div>
+
+
+
+                    <div class="css-properties-container">
+                        <h2
+                            style="line-height: 2; font-size: x-large; font-weight: 600; color: #e93d27; text-align: center; font-family: 'Ubuntu', sans-serif;">
+                            Important CSS Properties</h2>
+
+                        <p>There are numerous CSS properties, each serving a specific purpose in styling and layout
+                            design.
+                            However, some properties are particularly important for controlling layout, appearance, and
+                            behavior. Here are some of the essential CSS properties:</p><br>
+
+                        <li><strong>Display:</strong> Determines how an element is displayed. Common values include
+                            <code>block</code>, <code>inline</code>, <code>inline-block</code>, <code>flex</code>,
+                            and
+                            <code>grid</code>.
+                        </li>
+                        <li><strong>Position:</strong> Specifies the positioning method of an element. Values
+                            include
+                            <code>static</code>, <code>relative</code>, <code>absolute</code>, and
+                            <code>fixed</code>.
+                        </li>
+                        <li><strong>Width and Height:</strong> Sets the width and height of an element. These
+                            properties
+                            are crucial for defining the size of elements on the page.</li>
+                        <li><strong>Margin and Padding:</strong> Controls the spacing around an element.
+                            <code>margin</code> sets the space outside the border, while <code>padding</code> sets
+                            the
+                            space inside the border.
+                        </li>
+                        <li><strong>Box Model Properties:</strong> Includes properties such as <code>border</code>,
+                            <code>border-radius</code>, and <code>box-shadow</code>, which affect the visual
+                            appearance
+                            of the element's box.
+                        </li>
+                        <li><strong>Background:</strong> Defines the background of an element. Properties include
+                            <code>background-color</code>, <code>background-image</code>,
+                            <code>background-position</code>, etc.
+                        </li>
+                        <li><strong>Typography:</strong> Properties like <code>font-family</code>,
+                            <code>font-size</code>, <code>font-weight</code>, <code>line-height</code>, and
+                            <code>text-align</code> control the appearance of text.
+                        </li>
+                        <li><strong>Color and Opacity:</strong> Sets the color of text and backgrounds using
+                            properties
+                            like <code>color</code>, <code>background-color</code>, and <code>opacity</code>.</li>
+                        <li><strong>Flexbox and Grid Properties:</strong> Properties like <code>flex</code>,
+                            <code>justify-content</code>, <code>align-items</code>,
+                            <code>grid-template-columns</code>,
+                            and <code>grid-gap</code> are crucial for creating flexible and responsive layouts.
+                        </li>
+                        <li><strong>Transition and Animation:</strong> Allows for creating smooth transitions and
+                            animations. Properties include <code>transition-property</code>,
+                            <code>transition-duration</code>, <code>animation-name</code>,
+                            <code>animation-duration</code>, etc.
+                        </li>
+                        <li><strong>Media Queries:</strong> Used for creating responsive designs by applying styles
+                            based on the characteristics of the device, such as screen width, height, and
+                            orientation.
+                        </li>
+
+
+                        <p>These are just a few examples of important CSS properties. Depending on the project
+                            requirements,
+                            other properties may also be essential.</p>
+
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text" style="text-align: center;">Html Tags: <span class="typing-2">Understanding
+                            Important HTML Tags</span>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;div&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;div&gt;</strong> tag is a generic container element used to group content
+                                or elements together. It does not carry any semantic meaning on its own but is commonly
+                                used with CSS for styling purposes and JavaScript for functionality.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;h1&gt; to &lt;h6&gt;</h1>
+                            <br>
+                            <p>Heading tags, from <strong>&lt;h1&gt;</strong> to <strong>&lt;h6&gt;</strong>, are used
+                                to define headings of different levels on a web page. They provide structure and
+                                hierarchy to the content, with <strong>&lt;h1&gt;</strong> being the highest level and
+                                <strong>&lt;h6&gt;</strong> being the lowest.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;p&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;p&gt;</strong> tag is used to define paragraphs of text on a webpage. It
+                                represents a block of text separated from adjacent content, typically with some space
+                                above and below.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;a&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;a&gt;</strong> tag, or anchor tag, is used to create hyperlinks in HTML.
+                                It allows users to navigate from one webpage to another by clicking on the link text or
+                                image.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;img&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;img&gt;</strong> tag is used to embed images into an HTML document. It
+                                requires a src attribute to specify the image file's URL and alt attribute to provide
+                                alternative text for accessibility purposes.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;ul&gt; and &lt;li&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;ul&gt;</strong> (unordered list) and <strong>&lt;li&gt;</strong> (list
+                                item) tags are used together to create bulleted lists in HTML. The
+                                <strong>&lt;ul&gt;</strong> tag defines the list container, while each
+                                <strong>&lt;li&gt;</strong> tag represents an individual list item.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;ol&gt; and &lt;li&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;ol&gt;</strong> (ordered list) and <strong>&lt;li&gt;</strong> (list
+                                item) tags are used together to create numbered lists in HTML. The
+                                <strong>&lt;ol&gt;</strong> tag defines the list container, while each
+                                <strong>&lt;li&gt;</strong> tag represents an individual list item.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;table&gt;</strong>, <strong>&lt;tr&gt;</strong> (table row),
+                                <strong>&lt;th&gt;</strong> (table header), and <strong>&lt;td&gt;</strong> (table data)
+                                tags are used together to create structured tabular data in HTML. The
+                                <strong>&lt;table&gt;</strong> tag defines the table container,
+                                <strong>&lt;tr&gt;</strong> represents each row, <strong>&lt;th&gt;</strong> defines
+                                header cells, and <strong>&lt;td&gt;</strong> defines data cells.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;form&gt; and &lt;input&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;form&gt;</strong> tag is used to create HTML forms for user input, while
+                                the <strong>&lt;input&gt;</strong> tag is used to define input fields within the form.
+                                Various types of input fields, such as text fields, checkboxes, radio buttons, etc., can
+                                be created using the <strong>&lt;input&gt;</strong> tag with different attributes.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;span&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;span&gt;</strong> tag is an inline container used to group elements for
+                                styling purposes or applying scripts. It does not add any semantic meaning to the
+                                content but can be styled using CSS or targeted with JavaScript.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;button&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;button&gt;</strong> tag defines a clickable button on a webpage. It is
+                                commonly used within forms or as standalone buttons for triggering actions or events
+                                when clicked by the user.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;nav&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;nav&gt;</strong> tag represents a section of a webpage that links to
+                                other pages or sections within the same page. It is typically used to create navigation
+                                menus or lists of links for easy user navigation.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;iframe&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;iframe&gt;</strong> tag is used to embed another HTML document within the
+                                current document. It allows for the inclusion of external content such as maps, videos,
+                                or other webpages while retaining the ability to interact with it.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;textarea&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;textarea&gt;</strong> tag defines a multi-line text input control within
+                                an HTML form. It allows users to input longer text entries, such as comments or
+                                messages, which can be submitted along with other form data.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;select&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;select&gt;</strong> tag creates a dropdown list within an HTML form. It
+                                enables users to choose one or more options from a list of predefined choices, providing
+                                a convenient way to select data from a set of options.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;option&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;option&gt;</strong> tag defines an option within a
+                                <strong>&lt;select&gt;</strong> dropdown list. It represents an individual item that
+                                users can select from the dropdown menu, each with its own value and display text.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;button&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;button&gt;</strong> tag creates a clickable button on a webpage. It can
+                                be used to trigger JavaScript functions, submit form data, or perform other interactive
+                                actions when clicked by the user.</p>
+                        </div>
+                    </div>
+
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <h1 style="text-align: center;">&lt;label&gt;</h1>
+                            <br>
+                            <p>The <strong>&lt;label&gt;</strong> tag defines a label for an
+                                <strong>&lt;input&gt;</strong> element. It helps improve accessibility and usability by
+                                associating a descriptive label with form controls, making it easier for users to
+                                understand the purpose of each input field.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="local">
+                        <button class="button" onclick="redirectToGeekForGeek()">Click to know more about HTML
+                            tags</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text" style="text-align: center;">
+                        <strong>Conclusion:</strong>
+                        <span class="typing-2">Key Learnings</span>
+                    </div>
+                    <br>
+                    <p style="line-height: 1.5;"><b>HTML Key Learnings: </b>HTML lays the groundwork for web
+                        development,
+                        focusing on structuring content and understanding the functional roles of tags. Aspiring
+                        developers delve into the essence of HTML elements, tags, and attributes, realizing their
+                        pivotal role in organizing and presenting information on the web. Central to their learning is
+                        the imperative to comprehend the functional purpose of each tag, ensuring its proper use in
+                        conveying meaning and semantics. They explore form elements for user input, linking mechanisms
+                        for navigation, and the integration of multimedia content. Furthermore, accessibility
+                        considerations underscore the importance of creating web experiences that are inclusive and
+                        accessible to all users, fostering a deeper understanding of how HTML can be leveraged to
+                        enhance usability for diverse audiences.</p>
+
+                    <br>
+                    <p style="line-height: 1.5;"><b>CSS Key Learnings: </b>CSS emerges as the creative force behind web
+                        design, enabling developers to style and layout HTML elements effectively. Learners embark on a
+                        journey to decipher the functional properties of CSS, understanding how each property influences
+                        the visual presentation of elements on the page. They master selectors for targeting specific
+                        elements and dive into the intricacies of the box model, gaining proficiency in manipulating
+                        content, padding, border, and margin. Exploring various layout techniques such as positioning,
+                        floats, flexbox, and CSS Grid, they gain insight into crafting dynamic and responsive layouts.
+                        Moreover, typography takes center stage as developers delve into CSS properties governing font
+                        styles, sizes, spacing, and alignment, refining the visual appeal and readability of textual
+                        content across the web.
+
+                    </p>
+
+                    <br>
+                    <p style="text-align: center; font-size: x-large; font-weight: 600; ">
+                        Summary: <span style="color: #e93d27;">Wrapping Up</span></p>
+                    <br>
+                    <p style="text-align: justify; line-height: 1.5;">
+                        This blog serves as a quick introduction to HTML and CSS, aimed at helping readers get
+                        comfortable with these essential web development tools. The main goal is to make HTML tags and
+                        CSS properties easy to understand so that when we discuss projects in the future, everyone is on
+                        the same page. Thank you for your valuable
+                        time and for reading this blog. I hope you found it insightful. Feel free to
+                        provide feedback. Stay tuned for more
+                        tech-related blogs. See you in the next blog!</b></p>
+
+                    <br>
+                    <p
+                        style="color: #e93d27; text-align: center; font-family: 'Ubuntu', sans-serif; font-size: larger;">
+                        <b>Keep exploring! Happy Coding!
+                    </p>
+                    </b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>All rights reserved to DevJourney &copy; 2024</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
